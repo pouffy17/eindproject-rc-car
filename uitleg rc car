@@ -20,7 +20,7 @@ Het is eigenlijk een mini‑computer die alles regelt.
 
 GPS‑module:
 
-Dit is een kleine sensor dat communiceert met sattelieten.
+Dit is een kleine sensor dat communiceert met sattelieten (gps-module is ontvanger van data).
 De GPS stuurt elke seconde coördinaten zoals:
 $GPRMC,5123.4567,N,00412.3456,E,...
 
