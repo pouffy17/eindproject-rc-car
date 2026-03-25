@@ -1,0 +1,29 @@
+Wat is een RC‑car met GPS?
+Een RC‑car met GPS is eigenlijk een gewone radiografisch bestuurbare auto, maar dan met extra slimme elektronica zodat hij:
+
+zijn locatie kan bepalen
+die locatie kan doorsturen naar je telefoon of dashboard
+je hem live op een kaart kunt volgen
+Je maakt dus van een simpele RC‑auto een mini‑smart‑vehicle.
+ESP32‑C6
+Dit is de “hersenen” van de auto.
+Het doet:
+
+motoren aansturen
+LED’s aansturen
+GPS‑data uitlezen
+WiFi verbinden
+Blynk‑app bedienen
+webserver tonen
+Het is eigenlijk een mini‑computer die alles regelt.
+GPS‑module
+Dit is een klein kastje dat satellieten ontvangt.
+De GPS stuurt elke seconde zinnen zoals:
+$GPRMC,5123.4567,N,00412.3456,E,...
+
+Motoren + LED’s
+De ESP32 stuurt:
+
+4 motoren
+LED’s
+Je maakt dus een volledig bestuurbare auto met verlichting
